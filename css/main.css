@@ -31,6 +31,10 @@ body {
 @media (max-width: 767px) {
   .main-container {
     margin: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -57,7 +61,7 @@ body {
 
 .my-photo {
   min-width: 230px;
-  max-width: 350px;
+  max-width: 370px;
   width: 100%;
   margin-top: 20px;
   padding: 5px;
@@ -84,7 +88,7 @@ body {
 
 @media (max-width: 767px) {
   .sidebar {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -112,9 +116,145 @@ body {
   margin-bottom: 40px;
 }
 
+.about-me {
+  width: auto;
+  padding: 30px 90px 0px 90px;
+}
+
+.my-name {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.97;
+  margin-bottom: 20px;
+}
+
+.profession {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.date {
+  color: var(--date-text);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.company {
+  color: var(--title-text-color);
+}
+
+.simbol {
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.work-story {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  min-width: 413px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.description {
+  min-width: 413px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
 .contact-container {
-  max-width: 370px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 60px 40px 40px 45px;
+}
+
+.contact-title {
+  color: var(--accent-text-color);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.09;
+}
+
+.all-cont {
+  padding-top: 10px;
+}
+
+.contact-link {
+  color: var(--primary-text-color);
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.cont {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.71;
+  color: var(--accent-text-color);
+  margin-right: 10px;
+}
+
+.tech-skill {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.09;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: var(--accent-text-color);
+}
+
+.tech-skills {
+  color: var(--title-text-color);
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+.tech-skills li {
+  list-style-type: none;
+}
+
+.tech-skills li:before {
+  content: "\2a20";
+  display: inline-block;
+  text-indent: -20px;
+}
+
+.soft-skills li {
+  list-style-type: none;
+}
+
+.soft-skills li:before {
+  content: "\2a20";
+  display: inline-block;
+  text-indent: -20px;
+}
+
+.skill-text {
+  color: var(--hover-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+.soft-skill {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.09;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: var(--accent-text-color);
+}
+
+.soft-skills {
+  color: var(--title-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  margin-left: 60px;
 }
 /*# sourceMappingURL=main.css.map */
