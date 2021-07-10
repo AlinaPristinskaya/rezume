@@ -38,27 +38,6 @@ body {
   }
 }
 
-@media (min-width: 480px) {
-  .main-container {
-    background-color: #64ebac;
-  }
-}
-
-@media (min-width: 768px) {
-  .main-container {
-    background-color: brown;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media (min-width: 1024px) {
-  .main-container {
-    background-color: chartreuse;
-  }
-}
-
 .my-photo {
   min-width: 230px;
   max-width: 370px;
@@ -94,13 +73,9 @@ body {
 
 @media (min-width: 768px) {
   .sidebar {
-    background-color: brown;
-  }
-}
-
-@media (min-width: 1024px) {
-  .sidebar {
-    background-color: chartreuse;
+    min-width: none;
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
   }
 }
 
@@ -177,7 +152,7 @@ body {
 }
 
 .contact-link {
-  color: var(--primary-text-color);
+  color: var(--hover-text-color);
   line-height: 1.7;
   font-size: 14px;
   font-weight: 400;
@@ -249,6 +224,30 @@ body {
   font-weight: 400;
   line-height: 1.71;
   margin-left: 60px;
+}
+
+.iconsvg {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.svgicon {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  fill: black;
+}
+
+.svgicon :hover {
+  fill: var(--title-text-color);
+}
+
+.itemsvg {
+  margin-right: 20px;
 }
 
 .about-me {

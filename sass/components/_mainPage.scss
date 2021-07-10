@@ -35,17 +35,7 @@
       flex-direction: column;
      
     }
-    @include for-size(phone) {
-      background-color: #64ebac;
-    }
-    @include for-size(tablet) {
-      background-color: brown;
-      display: flex;
-      
-    }
-    @include for-size(desktop) {
-      background-color: chartreuse;
-    }
+   
   
   }
 

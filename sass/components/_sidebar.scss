@@ -8,13 +8,12 @@
        
       }
       @include for-size(tablet) {
-        background-color: brown;
+          min-width: none;
        
+       flex-basis: 45%;
         
       }
-      @include for-size(desktop) {
-        background-color: chartreuse;
-      }
+      
 
   }
   .education {
@@ -82,7 +81,7 @@
     padding-top: 10px;
   }
   .contact-link {
-    color: var(--primary-text-color);
+    color: var(--hover-text-color);
     line-height: 1.7;
     font-size: 14px;
     font-weight: 400;
@@ -145,4 +144,22 @@
     font-weight: 400;
     line-height: 1.71;
     margin-left: 60px;
+  }
+  .iconsvg{
+      list-style: none;
+      display: flex;
+      padding: 0;
+  }
+  .svgicon{
+      margin: 0;
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      fill:black;
+      :hover{
+          fill:var(--title-text-color);
+      }
+  }
+  .itemsvg{
+      margin-right: 20px;
   }
