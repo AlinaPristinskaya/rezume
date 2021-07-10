@@ -17,6 +17,9 @@
       }
   }
 .meSpec{
+    
+        color: var(--title-text-color);  
+      
     @include for-size(max-phone) {
         margin-left: auto;
         margin-right: auto;
