@@ -1,1 +1,41 @@
+.about-me {
+    width: auto;
+   
+    @include for-size(max-phone) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 30px 0px 30px;
+        width: 100%;
+      }
+      @include for-size(tablet) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 60px 0px 60px;
+      }
+      @include for-size(desktop) {
+        padding: 30px 90px 0px 90px;
+      }
+  }
+.meSpec{
+    @include for-size(max-phone) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 30px 0px 30px;
+        width: 100%;
+      }
+      @include for-size(tablet) {
+        display: none;
+      }
+}
+.meName{
+    @include for-size(max-phone) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 30px 0px 30px;
+        width: 100%;
+      }
+      @include for-size(tablet) {
+        display: none;
+      }
 
+}

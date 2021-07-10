@@ -116,11 +116,6 @@ body {
   margin-bottom: 40px;
 }
 
-.about-me {
-  width: auto;
-  padding: 30px 90px 0px 90px;
-}
-
 .my-name {
   font-size: 30px;
   font-weight: 700;
@@ -156,13 +151,11 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  min-width: 413px;
   padding-left: 20px;
   margin-bottom: 25px;
 }
 
 .description {
-  min-width: 413px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -221,7 +214,7 @@ body {
 .tech-skills li:before {
   content: "\2a20";
   display: inline-block;
-  text-indent: -20px;
+  text-indent: -40px;
 }
 
 .soft-skills li {
@@ -231,7 +224,7 @@ body {
 .soft-skills li:before {
   content: "\2a20";
   display: inline-block;
-  text-indent: -20px;
+  text-indent: -40px;
 }
 
 .skill-text {
@@ -256,5 +249,62 @@ body {
   font-weight: 400;
   line-height: 1.71;
   margin-left: 60px;
+}
+
+.about-me {
+  width: auto;
+}
+
+@media (max-width: 767px) {
+  .about-me {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 0px 30px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-me {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 60px 0px 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-me {
+    padding: 30px 90px 0px 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .meSpec {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 0px 30px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .meSpec {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .meName {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 0px 30px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .meName {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
