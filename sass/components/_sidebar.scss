@@ -1,16 +1,15 @@
 
  .sidebar {
     background: #2f303a;
-        
-    @include for-size(phone) {
+    
+    @include for-size(max-phone) {
         max-width: 100%;
-        align-items: center;
-        padding-top: auto;
-        padding-bottom: auto;
+        
+       
       }
       @include for-size(tablet) {
         background-color: brown;
-        display: flex;
+       
         
       }
       @include for-size(desktop) {

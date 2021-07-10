@@ -20,9 +20,18 @@ body {
 
 .main-container {
   max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: var(--accent-text-color);
   -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
           box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    margin: 20px;
+  }
 }
 
 @media (min-width: 480px) {
@@ -47,11 +56,15 @@ body {
 }
 
 .my-photo {
-  max-width: 280px;
-  margin-top: 40px;
+  min-width: 230px;
+  max-width: 350px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  display: block;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 767px) {
   .my-photo {
     margin-left: auto;
     margin-right: auto;
@@ -69,23 +82,15 @@ body {
   background: #2f303a;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 767px) {
   .sidebar {
     max-width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-top: auto;
-    padding-bottom: auto;
   }
 }
 
 @media (min-width: 768px) {
   .sidebar {
     background-color: brown;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 

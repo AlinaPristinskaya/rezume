@@ -1,10 +1,13 @@
 .my-photo {
-    max-width: 280px;
-    
-    margin-top: 40px;
-    @include for-size(phone) {
+    min-width: 230px;
+    max-width: 350px;
+    width: 100%;
+    margin-top: 20px;
+    padding:5px;
+    display: block;
+    @include for-size(max-phone) {
       margin-left: auto;
-    margin-right: auto;
+      margin-right: auto;
     }
     @include for-size(tablet) {
       margin-left: auto;

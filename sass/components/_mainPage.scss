@@ -23,10 +23,18 @@
   .main-container {
     
     max-width: 1200px;
+    display: flex;
    
    
     background: var(--accent-text-color);
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+
+    @include for-size(max-phone) {
+     
+      margin: 20px;
+      
+     
+    }
     @include for-size(phone) {
       background-color: #64ebac;
     }
