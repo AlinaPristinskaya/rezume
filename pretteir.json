@@ -2,12 +2,12 @@
 {
     " printWidth " : 80 ,
     " tabWidth " : 2 ,
-    " useTabs " : ложь ,
-    " полу " : правда ,
-    " singleQuote " : правда ,
+    " useTabs " : false ,
+    " полу " : true ,
+    " singleQuote " : true ,
     " trailingComma " : " все " ,
     " bracketSpacing " : true ,
-    " jsxBracketSameLine " : ложь ,
+    " jsxBracketSameLine " : false ,
     " arrowParens " : " избегать " ,
     " proseWrap " : " всегда "
   }

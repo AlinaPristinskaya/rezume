@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,AAAC,CACE,OAAO,CAAE,CAAC,CACX,AACD,AAAA,KAAK,AAAC,CACJ,oBAAoB,CAAA,QAAC,CACrB,kBAAkB,CAAA,QAAC,CACnB,kBAAkB,CAAA,QAAC,CACnB,mBAAmB,CAAA,QAAC,CACpB,WAAW,CAAA,QAAC,CACb,AACD,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,MAAM,CAAE,GAAG,CACZ,AAED,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,wBAAwB,CACrC,UAAU,CAAE,OAAO,CACnB,OAAO,CAAE,SAAS,CAClB,MAAM,CAAE,CAAC,CACV,AAED,AAAA,eAAe,AAAC,CAEd,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,QAAQ,CAChB,WAAW,CAAE,UAAU,CACvB,UAAU,CAAE,wBAAwB,CACpC,UAAU,CAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,gBAAmB,CAC7C,AC/BH,AAAA,SAAS,AAAC,CACN,SAAS,CAAE,KAAK,CAEjB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/components/_mainPage.scss",
+        "../sass/components/_foto.scss",
+        "../sass/components/_sidebar.scss",
+        "../sass/components/_mixins.scss",
+        "../sass/components/_aboutMe.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

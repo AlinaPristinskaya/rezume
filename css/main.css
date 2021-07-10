@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+}
+
+:root {
+  --primary-text-color: #636b76;
+  --title-text-color: #64ebac;
+  --hover-text-color: #b1b5ba;
+  --accent-text-color: #ffffff;
+  --date-text: #616969;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f5f7fa;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: var(--accent-text-color);
+  -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.my-photo {
+  max-width: 270px;
+}
+/*# sourceMappingURL=main.css.map */
