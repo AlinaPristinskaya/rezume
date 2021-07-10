@@ -1,6 +1,19 @@
 .my-photo {
-    max-width: 270px;
+    max-width: 280px;
     
-  }
-
+    margin-top: 40px;
+    @include for-size(phone) {
+      margin-left: auto;
+    margin-right: auto;
+    }
+    @include for-size(tablet) {
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    @include for-size(desktop) {
+      
+    }
   
+
+}

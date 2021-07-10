@@ -1,2 +1,35 @@
 
- 
+ .sidebar {
+    background: #2f303a;
+        
+    @include for-size(phone) {
+        max-width: 100%;
+        align-items: center;
+        padding-top: auto;
+        padding-bottom: auto;
+      }
+      @include for-size(tablet) {
+        background-color: brown;
+        display: flex;
+        
+      }
+      @include for-size(desktop) {
+        background-color: chartreuse;
+      }
+
+  }
+  .education {
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+  }
+  .education-block {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .contact-container{
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+  }

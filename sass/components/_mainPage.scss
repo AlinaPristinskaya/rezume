@@ -1,7 +1,5 @@
+@import './_mixins.scss';
 
-* {
-    padding: 0;
-  }
   :root {
     --primary-text-color: #636b76;
     --title-text-color: #64ebac;
@@ -19,17 +17,27 @@
   body {
     font-family: "Montserrat", sans-serif;
     background: #f5f7fa;
-    padding: 10px 20px;
-    margin: 0;
+   
   }
 
   .main-container {
     
     max-width: 1200px;
-    margin: 0px auto;
-    align-items: flex-start;
+   
+   
     background: var(--accent-text-color);
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    @include for-size(phone) {
+      background-color: #64ebac;
+    }
+    @include for-size(tablet) {
+      background-color: brown;
+      display: flex;
+      
+    }
+    @include for-size(desktop) {
+      background-color: chartreuse;
+    }
   
   }
 
