@@ -1,42 +1,27 @@
-@import './_mixins.scss';
+@import "./_mixins.scss";
 
-  :root {
-    --primary-text-color: #636b76;
-    --title-text-color: #64ebac;
-    --hover-text-color: #b1b5ba;
-    --accent-text-color: #ffffff;
-    --date-text: #616969;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    margin: 0px;
-  }
-  
-  body {
-    font-family: "Montserrat", sans-serif;
-    background: #f5f7fa;
-   
-  }
+:root {
+  --primary-text-color: #636b76;
+  --title-text-color: #64ebac;
+  --hover-text-color: #b1b5ba;
+  --accent-text-color: #ffffff;
+  --date-text: #616969;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+}
 
-  .main-container {
-    
-    max-width: 1200px;
-    display: flex;
-   
-   
-    background: var(--accent-text-color);
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f5f7fa;
+}
 
-    @include for-size(max-phone) {
-     
-      margin: 20px;
-      flex-direction: column;
-     
-    }
-   
-  
-  }
+.main-container {
+  max-width: 1200px;
+  display: flex;
 
- 
+  background: var(--accent-text-color);
+}

@@ -24,59 +24,17 @@ body {
   display: -ms-flexbox;
   display: flex;
   background: var(--accent-text-color);
-  -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-}
-
-@media (max-width: 767px) {
-  .main-container {
-    margin: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 .my-photo {
-  min-width: 230px;
-  max-width: 370px;
-  width: 100%;
-  margin-top: 20px;
-  padding: 5px;
-  display: block;
-}
-
-@media (max-width: 767px) {
-  .my-photo {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .my-photo {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 260px;
+  margin: 20px;
 }
 
 .sidebar {
   background: #2f303a;
-}
-
-@media (max-width: 767px) {
-  .sidebar {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .sidebar {
-    min-width: none;
-    -ms-flex-preferred-size: 45%;
-        flex-basis: 45%;
-  }
+  width: 300px;
+  height: 100%;
 }
 
 .education {
@@ -93,26 +51,17 @@ body {
 
 .my-name {
   font-size: 30px;
-  font-weight: 700;
-  line-height: 1.97;
-}
-
-@media (max-width: 767px) {
-  .my-name {
-    display: none;
-  }
 }
 
 .profession {
   font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
+  margin-top: 15px;
 }
 
 .date {
   color: var(--title-text-color);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 2;
 }
 
@@ -129,10 +78,8 @@ body {
 
 .work-story {
   font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
   padding-left: 20px;
-  margin-bottom: 25px;
+  margin: 5px;
 }
 
 .description {
@@ -140,16 +87,12 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
-}
-
-@media (max-width: 767px) {
-  .description {
-    display: none;
-  }
+  margin: 0px;
 }
 
 .contact-container {
-  margin: 60px 40px 40px 45px;
+  margin: 20px;
+  list-style: none;
 }
 
 .contact-title {
@@ -157,6 +100,7 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.09;
+  padding-left: 20px;
 }
 
 .all-cont {
@@ -166,9 +110,9 @@ body {
 .contact-link {
   color: var(--hover-text-color);
   line-height: 1.7;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .cont {
@@ -176,7 +120,6 @@ body {
   font-weight: 700;
   line-height: 1.71;
   color: var(--accent-text-color);
-  margin-right: 10px;
 }
 
 .tech-skill {
@@ -240,9 +183,6 @@ body {
 
 .iconsvg {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 0;
 }
 
@@ -251,15 +191,17 @@ body {
   padding: 0;
   width: 40px;
   height: 40px;
-  fill: black;
-}
-
-.svgicon :hover {
   fill: var(--title-text-color);
 }
 
 .itemsvg {
   margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .progect {
@@ -276,67 +218,24 @@ body {
   font-weight: 400;
   line-height: 1.71;
   padding-left: 20px;
-  margin-bottom: 25px;
+  margin: 5px;
+}
+
+.noPadding {
+  padding: 0;
+  margin: 0;
 }
 
 .about-me {
   width: auto;
-}
-
-@media (max-width: 767px) {
-  .about-me {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 30px 0px 30px;
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .about-me {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 60px 0px 60px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .about-me {
-    padding: 30px 90px 0px 90px;
-  }
+  padding: 20px;
 }
 
 .meSpec {
   color: var(--title-text-color);
 }
 
-@media (max-width: 767px) {
-  .meSpec {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 30px 0px 30px;
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .meSpec {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .meName {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 30px 0px 30px;
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .meName {
-    display: none;
-  }
+.meName {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
